@@ -25,7 +25,7 @@ String olds[],news[];
 	{
 		String Drpath=linuxLive(olds,news);
 		System.out.println(Drpath+"  detected");
-		Zipper.ZipUp("/run/media/Rancho/"+Drpath);
+		Zipper.ZipUp("/run/media/Ranch/"+Drpath);
 	}
 olds=news;
 	
